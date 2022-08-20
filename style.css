@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+:root{
+    --primary-color:#64748b;
+}
+
+body{
+    font-family: 'Aclonica', sans-serif;
+}
+
+.nav{
+
+    padding: 1rem 0rem;
+
+}
+
+#txt-output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#txt-input {
+    height: 10vh;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0 rem;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    color: white;
+    margin: 1rem 0rem;
+    border: none;
+    padding: 1rem 2rem;
+    font-family: 'Aclonica', sans-serif;
+}
